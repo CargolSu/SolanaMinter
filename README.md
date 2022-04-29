@@ -31,7 +31,7 @@
 
 1. Clone the repository / Download zip file
 
-    ' git clone https://github.com/dedushkaalex/SolanaMint `
+    ' git clone https://github.com/CargolSu/SolanaMinter `
 
    
     
