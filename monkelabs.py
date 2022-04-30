@@ -1,5 +1,4 @@
-import requests
-import base64
+
 import time
 import os
 import pathlib
