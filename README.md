@@ -42,7 +42,7 @@
 
 3. Install all python module
 
-   `pip install selenium webdriver-manager selenium-stealth`
+   `pip install selenium requests webdriver-manager selenium-stealth`
 
 4. Replace Phantom Passphrase and password in `config.json`
 
